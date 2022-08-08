@@ -1,0 +1,33 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#calculator-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#title {
+  color: #231F20;
+}
+
+#numbers-div {
+  flex-direction: column;
+}
+
+.number-row {
+  flex-direction: row;
+}
+
+div {
+  border: 0.1px solid black;
+  margin: 2px;
+}
+
+.num {
+  padding: 30px;
+}
